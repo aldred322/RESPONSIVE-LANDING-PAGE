@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero{
+    position: sticky;
+    width: 100%;
+    height: 20vh;
+    background: #000000;
+    padding: 15px;
+}
+
+ul li
+{
+    display:inline-block;
+    margin:10px 20px;
+}
+
+
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+ul li a:hover   
+{
+    color: rgb(177, 20, 192);
+}
+
+.intro
+{
+    margin-left: 5%;
+    margin-top:15%;
+}
+h1{
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+span{
+    color:rgb(24, 0, 0)
+}
+p{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
+.picture{
+    width: 50%;
+    height: 78%;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.picture img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.picture:hover .bgpic{
+    bottom: 50px;
+}
+.picture:hover .frontpic{
+    left: 45%;
+}
+.contact{
+    margin-left: 5%;
+    margin-top:0%;
+}
+.contact h2{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+.contact p{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+.contact li{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+.contact a{
+    text-decoration: line;
+    color: rgb(0, 0, 0);
+}
+.contact a:hover{
+    color: rgb(0, 0, 0);
+}
+.contactpic{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    bottom: 10;
+    right: 10px;
+}
+.contactpic img{
+    height: 200%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.contactpic:hover .cntctpic{
+    bottom: 40px;
+}
+.contactpic:hover .callpic{
+    left: 45%;
+}
+.about h2{
+    font-size: 50px;
+    padding-left: 10%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;}
+
+.about .pitu{
+    height: auto;
+    width: 430px;
+    border-radius: 30px;
+}
+.about p{
+        color:rgb(0, 0, 0);
+        font-size: 20px;
+        padding-left: 10%;
+        align-items: center;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+  }
+
+  .services-section {
+    padding: 40px;
+    background-color: #ffffff;
+  }
+
+  .service-card {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .service-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+
+  .service-description {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+
+  .service-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .centered-text {
+    text-align: center;
+  }
+  div.gallery {
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  div.gallery:hover {
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  p {
+    font-size: 16px;
+
+  }
+
+  .button {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    border: 2px solid #000000;
+  }
+  
+  .button1:hover {
+    background-color: #b019a6;
+    color: white;
+  }
